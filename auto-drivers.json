@@ -1,12 +1,11 @@
 {
   "schemaVersion": 1,
   "rules": [
-    { "families": ["A8XX"], "models": [840], "prefer": ["dd-turnip", "wn-b"] },
-    { "families": ["A8XX"], "prefer": ["wn-b"] },
-    { "families": ["A7XX_LOW"], "prefer": ["banner-710-720-test"] },
-    { "families": ["A7XX"], "oneUi8Gen2": true, "prefer": ["banner-8g2-oneui"] },
-    { "families": ["A7XX", "A6XX"], "prefer": ["banner"] },
-    { "families": ["ADRENO_UNKNOWN"], "minSdk": 36, "prefer": ["wn-b"] },
-    { "families": ["ADRENO_UNKNOWN"], "prefer": ["banner"] }
+    { "families": [ "A8XX" ], "prefer": [ "dd-turnip", "wn-b" ] },
+    { "families": [ "A7XX_LOW" ], "prefer": [ "banner-710-720-test" ] },
+    { "families": [ "A7XX" ], "oneUi8Gen2": true, "prefer": [ "dd-turnip", "banner-8g2-oneui" ] },
+    { "families": [ "A7XX", "A6XX" ], "prefer": [ "dd-turnip", "banner" ] },
+    { "families": [ "ADRENO_UNKNOWN" ], "minSdk": 36, "prefer": [ "wn-b" ] },
+    { "families": [ "ADRENO_UNKNOWN" ], "prefer": [ "banner" ] }
   ]
 }
